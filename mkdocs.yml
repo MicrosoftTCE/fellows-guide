@@ -1,0 +1,10 @@
+site_name: NYC - Microsoft Cities Civic Tech Fellows Guide
+pages:
+    - Home: index.md
+    - Good To Know: starthere.md
+    - Start Here - Onboarding: onboarding.md
+    - About Microsoft Cities: about.md
+    - Subscriptions: subs.md
+    - Project - Civic Graph: civicgraph.md
+    - Project - Tech Jobs Academy: tja.md
+theme: readthedocs
