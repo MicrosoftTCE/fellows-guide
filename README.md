@@ -19,7 +19,7 @@ Any following `##` tags will also be sub-sections under that item. Any tags that
 
 ## Updating this Guide
 
-The guide is served on the gh-pages branch of this repo. 
+The guide is served on the gh-pages branch of this repo and written in Markdown.
 
 ### Installation
 
@@ -83,3 +83,17 @@ Your changes will be deployed to the gh-pages branch of the repo and will be upd
 - Create a pull request from your forked repo on Github.com. The pull request should go from your gh-pages branch into the master repo  **base fork: MicrosoftTCE/fellows-guide, base: gh-pages**
 
 Once the pull request has been approved, your changes will be merged into the main repo.
+
+---
+
+### Adding content
+
+This guide is written in Markdown. A cheatsheet for Markdown commands is available here: <https://www.markdownguide.org/cheat-sheet>
+
+Basic Markdown syntax is also here: <https://www.markdownguide.org/basic-syntax>
+
+To add a new page to this guide, create a new `.md` file and add it to the `docs` folder in this project. 
+
+To add the new page to the nav sidebar, open the `mkdocs.yml` file and add a new item under `pages` in the file. The words before the colon is the title of the page as it will appear in the guide and after the colon is the name of the `.md` file.
+
+Run the project locally using  `mkdocs serve` to confirm your new content is available.
