@@ -7,4 +7,5 @@ pages:
     - Subscriptions: subs.md
     - Project - Civic Graph: civicgraph.md
     - Project - Tech Jobs Academy: tja.md
+    - Project - Chat Bot: chatbot.md
 theme: readthedocs
