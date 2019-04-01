@@ -64,7 +64,7 @@ The following steps will walk you through configuring the Intelligent Kiosk app 
 3. Click the "Click Here if You Need Keys" button below the first API key fields. Azure Portal sign-in page will launch. Use your Azure credentials to log in.
 4. Select "All Resources" and filter by "kiosk" in the *filter by name field*. The resources listed are the API keys needed for the Intelligent Kiosk app. You will only need kiosk-text-analytics, kiosk-face, and kiosk-computer-vision for the demos.
 5. Select one of the kiosk resources listed and click "Keys" under Resource Management on the left panel. 
-6. Copy/paste the API key into the appropriate field in the Intelligent Kiosk app. **NOTE**: DO NOT regenerate keys while someone is running a demo. This will cause their demo to fail
+6. Copy/paste the API key into the appropriate field in the Intelligent Kiosk app. **NOTE**: DO NOT regenerate keys while someone is running a demo. This will cause their demo to fail. Make sure each region is set to *eastus2*.
 7. Click "Run Key Validation Test" to confirm your API keys are functional.
 8. Under the Miscellaneous header, generate a workspace name and change your starting page to "Emotion API Explorer".
 9. Click the hamburger menu on the top-left again and go back to the main screen.
