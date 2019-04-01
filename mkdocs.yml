@@ -5,6 +5,7 @@ pages:
     - Start Here - Onboarding: onboarding.md
     - About Microsoft Cities: about.md
     - Subscriptions: subs.md
+    - Intelligent Kiosk: intelligentkiosk.md
     - Project - Civic Graph: civicgraph.md
     - Project - Tech Jobs Academy: tja.md
 theme: readthedocs
