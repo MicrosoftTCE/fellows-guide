@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Intelligent Kiosk - Microsoft Cities NY </br> Civic Tech Fellows Guide</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Intelligent Kiosk";
+    var mkdocs_page_input_path = "intelligentkiosk.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Microsoft Cities NY </br> Civic Tech Fellows Guide</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../starthere/">Good To Know</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../onboarding/">Start Here - Onboarding</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../about/">About Microsoft Cities</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../subs/">Subscriptions</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Intelligent Kiosk</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#what-is-microsofts-intelligent-kiosk">What is Microsoft's Intelligent Kiosk?</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#list-of-demos">List of Demos</a></li>
+        
+            <li><a class="toctree-l3" href="#how-microsoft-cities-uses-intelligent-kiosk">How Microsoft Cities uses Intelligent Kiosk</a></li>
+        
+            <li><a class="toctree-l3" href="#installation">Installation</a></li>
+        
+            <li><a class="toctree-l3" href="#configuration">Configuration</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../civicgraph/">Project - Civic Graph</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../tja/">Project - Tech Jobs Academy</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Microsoft Cities NY </br> Civic Tech Fellows Guide</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Intelligent Kiosk</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="what-is-microsofts-intelligent-kiosk">What is Microsoft's Intelligent Kiosk?</h1>
+<p>Intelligent Kiosk is an interactive demo space for Microsoft's Cognitive Services APIs that uses the services available across various scenarios, including Bing News Search, Bing Image Search, Bing Autosuggest, Text Analytics, Face, Emotion, Vision, and the LUIS/Bot Framework. Here are the scenarios in the Kiosk demos, and their underlying product features.</p>
+<ul>
+<li><strong>Automatic Photo Capture.</strong> Capture an image and apply analytics when people approach the web camera. 
+Features: Windows 10 Face Tracking; Face API for age &amp; gender prediction and face identification.</li>
+<li><strong>News Analytics.</strong> Analyze search terms and detect sentiments. 
+Features: Bing News API, Bing Autosuggest API, Text Analytics API for sentiment analysis and key phrase extraction</li>
+<li><strong>Emotion API Explorer.</strong> Analyze faces and detect emotion. 
+Features: Windows 10 Face Tracking; Emotion API; Bing Image Search API; Bing Autosuggest API</li>
+<li><strong>Face API Explorer.</strong> Analyze faces and detect age and gender. 
+Features: Windows 10 Face Tracking; Face API for age &amp; gender prediction and face identification; Bing Image Search API; Bing Autosuggest API</li>
+<li><strong>Face Identification Setup.</strong> Train the machine learning model behind the Face APIs to recognize specific people. 
+Features: Face API for face identification; Bing Image Search API; Bing Autosuggest API</li>
+<li><strong>Mall Kiosk.</strong> Makes product recommendations based on the people in front of the camera and then analyzes their reaction to it.
+Features: Windows 10 Face Tracking; Face API for age &amp; gender prediction and face identification; real-time sampling using Emotion API; Windows 10 Speech-To-Text; Text Analytics API for sentiment analysis.</li>
+<li><strong>Realtime Crowd Insights</strong> – processes frames from a web camera to derive realtime crowd insights such as demographics, emotion and unique face counting. 
+Features: Windows 10 Face Tracking; Realtime sampling; Face API for age and gender prediction, face identification, and unique face counting; Emotion API.</li>
+</ul>
+<p><a href="https://www.microsoft.com/cognitive-services/en-us/apis">Get the details about each of the APIs</a></p>
+<p>You may view a video overview at the following link: <a href="https://channel9.msdn.com/Shows/AI-Show/An-Introduction-to-the-Intelligent-Kiosk">https://channel9.msdn.com/Shows/AI-Show/An-Introduction-to-the-Intelligent-Kiosk</a></p>
+<h3 id="list-of-demos">List of Demos</h3>
+<ul>
+<li><strong>Bing News Analytics</strong> – Categorizes search results based on the sentiment of the news headlines, and uses Key Phrase extraction to create a word cloud with the top keywords of the headlines</li>
+<li><strong>CaptionBot</strong> – Captions whatever is in front of the camera</li>
+<li><strong>Crankify Kiosk</strong> – Turns the user into a Crank from the Maze Runner series</li>
+<li><strong>Emotion API Explorer</strong> – Allows the user to load images from Bing or Local Files, or from the web-camera, and displays the top three emotions on each face</li>
+<li><strong>Emotion Match (baby face edition)</strong> – Analyzes the emotion on each face and matches it with a face with similar emotion from a set of baby photos; performs real-time face tracking to detect when people are near the camera; once it detects people, it guides them through the rest of the experience</li>
+<li><strong>Emotion Photo Booth</strong> – Challenges the user to express the eight emotions that are recognized by the Emotion API; can handle many people at the same time: whoever shows the most expressive look for each emotion wins</li>
+<li><strong>Face API Explorer</strong> – Performs age and gender prediction as well as face identification by using web cam photos, local files on your hard drive, or images from Bing Images; for people who have been added to the Face Identification Setup model, it will show their names and age, for unknown people it will show their gender and age</li>
+<li><strong>How Old</strong> – Guesses the age and gender of people; performs real-time face tracking to detect when people are near the camera; once it detects people it guides them through the rest of the experience; can also be trained to identify specific people</li>
+<li><strong>Mall Kiosk</strong> – Makes product recommendations based on the person’s gender and age; can be configured to make personalized recommendations when specific people are recognized</li>
+<li><strong>Realtime Crowd Insights</strong> – Analyzes emotion, age, gender, and identification while the people are looking at the camera, and displays those insights</li>
+<li><strong>Realtime Video Insights</strong> – similar to the Realtime Crowd demo, except that it uses as input a video file (from a local file or YouTube) and provides a different visualization of the emotion by slicing it for each person in the video and plotting it on a timeline</li>
+<li><strong>What Dog</strong> – similar to Emotion Match, except it matches each person with a dog, based on the age and gender of the person</li>
+<li><strong>What If</strong> – uses Cognitive Services and the Bot Framework to analyze “what-if” like questions and answer them with an image</li>
+</ul>
+<h2 id="how-microsoft-cities-uses-intelligent-kiosk">How Microsoft Cities uses Intelligent Kiosk</h2>
+<p>Intelligent Kiosk is a powerful application that the team uses to showcase the application of Cognitive Services with interactive play and engagement. Microsoft Cities attends the NYC CS Fair every year and uses the Kiosk to demonstrate how APIs can be used to create applications such as the "How Old", "Emotion Photo Booth", and "Face API Explorer" among other demo favorites. </p>
+<p>This affords us the opportunity to engage interested students in the underlying technology used to develop and implement these APIs and offer tips and instruction on how they can use the APIs themselves!</p>
+<h2 id="installation">Installation</h2>
+<p>To install the kiosk, you will need a Windows 10 machine with a webcam and access to the Microsoft App Store. </p>
+<p>The download is located at <a href="https://aka.ms/intelligentkiosk">https://aka.ms/intelligentkiosk</a> or <a href="https://microsoft.sharepoint.com/teams/IntelligentKiosk">https://microsoft.sharepoint.com/teams/IntelligentKiosk</a>. <em>You must sign in with your Microsoft credentials to access the site.</em></p>
+<ol>
+<li>Click "INSTALL INTELLIGENT KIOSK" or go to <a href="https://microsoft.sharepoint.com/teams/IntelligentKiosk/Documentation%20Wiki/Installation.aspx?web=1">https://microsoft.sharepoint.com/teams/IntelligentKiosk/Documentation%20Wiki/Installation.aspx?web=1</a></li>
+<li>Go to <a href="http://aka.ms/kioskapp​">http://aka.ms/kioskapp​</a> or <a href="https://www.microsoft.com/en-us/p/intelligent-kiosk/9nblggh5qd84?rtc=1&amp;activetab=pivot:overviewtab">https://www.microsoft.com/en-us/p/intelligent-kiosk/9nblggh5qd84?rtc=1&amp;activetab=pivot:overviewtab</a>. The Windows Store should open. If not, you will be routed to a web page. Click "Get" from here and agree to launching the Microsoft Store. </li>
+<li>Click "Install" from the Microsoft Store.</li>
+<li>Once  installs, Click "Launch" from the Microsoft Store. </li>
+</ol>
+<h2 id="configuration">Configuration</h2>
+<p>Once you launch the Kiosk app for the first time, you will be prompted once to allow the app access to your web camera and once more to allow access to your microphone. A camera and microphone are necessary to run the demos. Click, "Yes" to enable for both prompts.</p>
+<p>The following steps will walk you through configuring the Intelligent Kiosk app using API keys.</p>
+<ol>
+<li>Click the hamburger menu on the top-left of the app screen and select "Settings".</li>
+<li>Turn off "Use Shared Keys" if it is on.</li>
+<li>Click the "Click Here if You Need Keys" button below the first API key fields. Azure Portal sign-in page will launch. Use your Azure credentials to log in.</li>
+<li>Select "All Resources" and filter by "kiosk" in the <em>filter by name field</em>. The resources listed are the API keys needed for the Intelligent Kiosk app. You will only need kiosk-text-analytics, kiosk-face, and kiosk-computer-vision for the demos.</li>
+<li>Select one of the kiosk resources listed and click "Keys" under Resource Management on the left panel. </li>
+<li>Copy/paste the API key into the appropriate field in the Intelligent Kiosk app. <strong>NOTE</strong>: DO NOT regenerate keys while someone is running a demo. This will cause their demo to fail</li>
+<li>Click "Run Key Validation Test" to confirm your API keys are functional.</li>
+<li>Under the Miscellaneous header, generate a workspace name and change your starting page to "Emotion API Explorer".</li>
+<li>Click the hamburger menu on the top-left again and go back to the main screen.</li>
+</ol>
+<p>Go ahead and have fun exploring the Intelligent Kiosk!</p>
+<p><em>These API keys were generated using the Cognitive Services resource in Azure.</em></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../civicgraph/" class="btn btn-neutral float-right" title="Project - Civic Graph">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../subs/" class="btn btn-neutral" title="Subscriptions"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../subs/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../civicgraph/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>
